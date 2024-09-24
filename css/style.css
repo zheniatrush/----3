@@ -1,0 +1,125 @@
+@import url(null.css);
+
+.burger {
+  position: relative;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.burger__icon {
+  height: 8px;
+  width: 46px;
+  background-color: #383838;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.3fr;
+  box-shadow: 2px 1px 15px black;
+  border-radius: 0 0 0 90px;
+  height: 140px;
+  background-color: #fdfdfd;
+  align-items: center;
+  padding-left: 76px;
+  padding-right: 81px;
+  position: relative;
+}
+
+.header__logo {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  flex: 0 1 471px;
+}
+
+.header__menu {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+
+.welcome__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-grow: 1;
+}
+.main__container {
+  height: 100%;
+}
+.main__logo {
+  padding-top: 111px;
+  text-align: center;
+  width: 426px;
+  margin: 0 auto;
+  padding-bottom: 31px;
+}
+.logo__big {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 96px;
+  color: #000;
+  text-align: left;
+}
+.logo__small {
+  font-family: "Poppins", sans-serif;
+  font-weight: 275;
+  font-size: 96px;
+  color: #c10606;
+  text-align: right;
+}
+.main__text {
+  width: 385px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  color: #000;
+  padding-bottom: 132px;
+}
+.button__container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding: 15px 27px;
+  background-color: #ff4242;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+.mouse {
+  position: absolute;
+  top: 500px;
+}
+.bigcircle {
+  position: absolute;
+  top: 189px;
+  right: 185px;
+}
+.oneoval {
+  position: absolute;
+  top: 582px;
+  right: 509px;
+  z-index: 1;
+}
+.twooval {
+  position: absolute;
+  top: 556px;
+  right: 83px;
+}
+.shop {
+  position: absolute;
+  top: 520px;
+  left: 80px;
+  z-index: 2;
+}
